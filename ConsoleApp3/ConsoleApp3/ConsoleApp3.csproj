@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.6.1" />
+    <PackageReference Include="System.IO.Packaging" Version="4.6.0" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Geo">
+      <HintPath>bin\Debug\netcoreapp2.1\Geo.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>bin\Debug\netcoreapp2.1\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>bin\Debug\netcoreapp2.1\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>D:\yangxiang\九江项目\code\02门户网站\后台管理WebApi-新\九江后台管理Api-新\JJ_MH\dll\RestSharp.dll</HintPath>
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="smn-sdk-net">
+      <HintPath>E:\dll\smn-sdk-net.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>bin\Debug\netcoreapp2.1\System.IO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

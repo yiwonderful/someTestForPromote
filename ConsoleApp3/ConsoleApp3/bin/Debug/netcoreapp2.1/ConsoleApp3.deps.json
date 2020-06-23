@@ -1,0 +1,193 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "ccfc42c0e5f072fb726456816d4338ef0f1c2a33"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ConsoleApp3/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "4.6.1",
+          "System.IO.Packaging": "4.6.0",
+          "Geo": "1.1.0.0",
+          "MongoDB.Bson": "1.11.0.92",
+          "MongoDB.Driver": "1.11.0.92",
+          "Newtonsoft.Json": "10.0.0.0",
+          "RestSharp": "106.6.10.0",
+          "smn-sdk-net": "1.0.4.0"
+        },
+        "runtime": {
+          "ConsoleApp3.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
+      "Microsoft.Win32.SystemEvents/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Drawing.Common/4.6.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.SystemEvents": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "System.IO.Packaging/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "Geo/1.1.0.0": {
+        "runtime": {
+          "Geo.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "2012.11.12.1"
+          }
+        }
+      },
+      "MongoDB.Bson/1.11.0.92": {
+        "runtime": {
+          "MongoDB.Bson.dll": {
+            "assemblyVersion": "1.11.0.92",
+            "fileVersion": "1.11.0.92"
+          }
+        }
+      },
+      "MongoDB.Driver/1.11.0.92": {
+        "runtime": {
+          "MongoDB.Driver.dll": {
+            "assemblyVersion": "1.11.0.92",
+            "fileVersion": "1.11.0.92"
+          }
+        }
+      },
+      "Newtonsoft.Json/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.3.21018"
+          }
+        }
+      },
+      "RestSharp/106.6.10.0": {
+        "runtime": {
+          "RestSharp.dll": {
+            "assemblyVersion": "106.6.10.0",
+            "fileVersion": "106.6.10.0"
+          }
+        }
+      },
+      "smn-sdk-net/1.0.4.0": {
+        "runtime": {
+          "smn-sdk-net.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
+      "path": "microsoft.win32.systemevents/4.6.0",
+      "hashPath": "microsoft.win32.systemevents.4.6.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TFAADvBEUhdDb2Lteq/BUeG0J1y7a0GyFdpB8yE/eAcbiN0R5MII1nXExXsrtRZiO8C/L9SozL2wGqkRlhiv6A==",
+      "path": "system.drawing.common/4.6.1",
+      "hashPath": "system.drawing.common.4.6.1.nupkg.sha512"
+    },
+    "System.IO.Packaging/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OVGGX9DWz1qbNGdh+kO3Q9spWa3dBTZ/glxrFOc8A/W8LquMg7JnPW4SecF7gzIyE1nAsfvyOILIubktnFZnlA==",
+      "path": "system.io.packaging/4.6.0",
+      "hashPath": "system.io.packaging.4.6.0.nupkg.sha512"
+    },
+    "Geo/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/1.11.0.92": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Driver/1.11.0.92": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.6.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "smn-sdk-net/1.0.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
